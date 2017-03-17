@@ -9,7 +9,7 @@ html, body{
 }
 #wrapper{
   width:100%;
-  max-width:960px;
+  width:960px;
   margin:auto;
 }
 
@@ -59,16 +59,20 @@ footer{
   }
 
   #column-1{
-    background-color: blue ;
+    background-color: blue;
+    width: 25%;
   }
   #column-2{
     background-color: aquamarine;
+    width: 25%;
   }
   #column-3{
     background-color: turquoise;
+    width: 50%;
   }
   footer{
     background-color: forestgreen;
+    width: 100%;
   }
 
 }
@@ -82,12 +86,15 @@ footer{
 
   #column-1{
     background-color: #FFCA3A;
+    width: 33.333333333%;
   }
   #column-2{
     background-color: #8AC926;
+    width: 33.333333333%;
   }
   #column-3{
     background-color: #6A4C93;
+    width: 33.333333333%;
   }
   footer{
     background-color: #1982C4 ;
